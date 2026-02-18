@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input, button {
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  background: linear-gradient(90deg, #00f5a0, #00d9f5);
+  color: #000;
+  font-weight: 600;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+body.light {
+  background: #f5f7fa;
+  color: #111;
+}
+
+body.light div {
+  color: #111;
+}
+
+body.light nav {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+body.light button {
+  color: #000;
+}
